@@ -1,0 +1,4 @@
+name: CorePlugin
+version: ${project.version}
+main: nl.voidgroup.minecraft.server.coreplugin.CorePlugin
+api-version: 1.16
