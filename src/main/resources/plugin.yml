@@ -1,4 +1,6 @@
 name: CorePlugin
 version: ${project.version}
-main: nl.voidgroup.minecraft.server.coreplugin.CorePlugin
-api-version: 1.16
+main: nl.voidgroup.minecraft.server.coreplugin.v0_0_1_dev_3.CorePlugin
+api-version: 1.8.8
+author: VoidStone
+load: STARTUP
