@@ -9,7 +9,8 @@ import java.util.UUID;
 public class CorePlugin extends JavaPlugin {
     @Override
     public void onEnable() {
-        new DevelopmentVersion("lolidk", 1).toString();
+        new DevelopmentVersion("123..13123...", "1.2.3");
+
     }
 
     @Override
