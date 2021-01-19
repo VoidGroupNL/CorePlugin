@@ -29,3 +29,8 @@
     <li><p>Names of global properties <strong>MUST</strong> always be capitalized</p></li>
 
 </ul>
+```java
+public class Test{
+    public static void Main() { return 0; }
+}
+```
