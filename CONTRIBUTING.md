@@ -29,10 +29,10 @@
     <li><p>Names of global properties <strong>MUST</strong> always be capitalized</p></li>
 
 </ul>
-```javascript
+{% highlight javascript %}
 function fancyAlert(arg) {
   if(arg) {
     $.facebox({div:'#foo'})
   }
 }
-```
+{% endhighlight %}
