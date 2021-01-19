@@ -21,3 +21,7 @@
     <li>C: Global Constant</li>
     <li>CS: Global Static Constant</li>
 </ul>
+
+#### Variable Syntax
+<p>All variable names should follow this syntax:</p>
+<p><strong>{scope-prefix}_{type-prefix}_{variable-name}</strong></p>
