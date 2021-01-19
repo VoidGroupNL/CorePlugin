@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public abstract class Version {
-  private static final Pattern CS_T_ValidVersion = Pattern.compile("([^0-9.]|^\\.|\\.$|\\.\\.)+");
+  private static final Pattern CS_T_VERSIONPATTERN = Pattern.compile("([^0-9.]|^\\.|\\.$|\\.\\.)+");
 
 
 

@@ -22,6 +22,10 @@
     <li>CS: Global Static Constant</li>
 </ul>
 
-#### Variable Syntax
-<p>All variable names should follow this syntax:</p>
-<p><strong>{scope-prefix}_{type-prefix}_{variable-name}</strong></p>
+#### Variable Name Rules
+<ul>
+    <li><p>All variable names should follow this syntax:</p>
+    <p><strong>{scope-prefix}_{type-prefix}_{variable-name}</strong></p></li>
+    <li><p>Names of global properties <strong>MUST</strong> always be capitalized</p></li>
+
+</ul>
