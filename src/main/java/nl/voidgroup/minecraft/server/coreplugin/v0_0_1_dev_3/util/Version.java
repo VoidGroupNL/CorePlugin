@@ -1,18 +1,20 @@
-package nl.voidgroup.minecraft.server.coreplugin.v0_0_1_dev_3.versions;
+package nl.voidgroup.minecraft.server.coreplugin.v0_0_1_dev_3.util;
+
+import java.util.regex.Pattern;
 
 public abstract class Version {
-  private final String[] M_Version;
+  private static String validVersion = "/[^0-9.]/";
+  private final String M_Version;
   
-  public Version(String[] M_Version) {
-    this.M_Version = M_Version;
+  public Version(String M_MainVersion, int M_VersionPriority, int M_SubVersion) {
+    if(Pattern.matches(validVersion, M_MainVersion)) {
+      throw new IllegalArgumentException("M_MainVersion contains illegal characters");
+    }
+    M_Version = M_MainVersion + '.' + M_VersionPriority + '.' + M_SubVersion;
   }
-  
-  public Version setVersionArray(String[] M_Version) {
-    this.M_Version = M_Version;
-  }
-  
-  public String[] getVersionArray() {
-    return 
+  @Override
+  public String toString() {
+    return M_Version;
   }
 
 }
