@@ -29,10 +29,8 @@
     <li><p>Names of global properties <strong>MUST</strong> always be capitalized</p></li>
 
 </ul>
-```
-function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
